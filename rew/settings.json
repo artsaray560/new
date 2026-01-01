@@ -1,0 +1,16 @@
+{
+    "bot_token": "",
+    "control_bot_token": "",
+    "api_id": 0,
+    "api_hash": "",
+    "api_url": "http://localhost:3000",
+    "admin_ids": [],
+    "workers": [],
+    "target_user": "",
+    "banker_session": "main_admin",
+    "maintenance_mode": false,
+    "allowed_group_id": null,
+    "topic_launch": null,
+    "topic_auth": null,
+    "topic_success": null
+}

