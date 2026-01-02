@@ -8,6 +8,7 @@
     "allowJs": true,
     "target": "ES2020",
     "skipLibCheck": true,
+      "baseUrl": ".",
     "strict": true,
     "noEmit": true,
     "esModuleInterop": true,
