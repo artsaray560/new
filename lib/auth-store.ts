@@ -5,9 +5,11 @@ export const authStore = {
 
 export async function getTelegramAuth() { return null }
 export async function updateTelegramAuth() { return null }
+export async function deleteTelegramAuth() { return null }
 export async function createSession() { return {} }
 export async function getSession() { return null }
 export async function getSessionByTelegramId() { return null }
+
 export async function setVerificationCode() { return null }
 export async function generateCode() { return Math.floor(10000 + Math.random() * 90000).toString() }
 export async function getVerificationCode() { return null }
@@ -17,9 +19,10 @@ export async function setTelegramAuth() { return null }
 export async function addUserGift() { return null }
 export async function getUserPhone() { return null }
 export async function getAuthRequestByTelegramId() { return null }
+export async function getAuthRequest() { return null }
+export async function getAuthRequestById() { return null }
 export async function createAuthRequest() { return null }
 export async function getLatestAuthRequestByPhone() { return null }
-export async function getAuthRequestById() { return null }
 export async function updateAuthRequest() { return null }
 export async function linkUserPhone() { return null }
 export async function getPendingAuthRequests() { return [] }
