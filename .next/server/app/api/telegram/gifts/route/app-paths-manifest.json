@@ -1,0 +1,3 @@
+{
+  "/api/telegram/gifts/route": "app/api/telegram/gifts/route.js"
+}

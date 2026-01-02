@@ -1,0 +1,3 @@
+{
+  "/api/user/gifts/withdraw/route": "app/api/user/gifts/withdraw/route.js"
+}

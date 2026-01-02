@@ -1,0 +1,3 @@
+{
+  "/api/telegram/get-pending/route": "app/api/telegram/get-pending/route.js"
+}

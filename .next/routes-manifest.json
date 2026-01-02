@@ -1,0 +1,218 @@
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "app",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/api/auth/bot-callback",
+      "regex": "^/api/auth/bot\\-callback(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auth/bot\\-callback(?:/)?$"
+    },
+    {
+      "page": "/api/auth/check",
+      "regex": "^/api/auth/check(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auth/check(?:/)?$"
+    },
+    {
+      "page": "/api/auth/request-code",
+      "regex": "^/api/auth/request\\-code(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auth/request\\-code(?:/)?$"
+    },
+    {
+      "page": "/api/auth/send-code",
+      "regex": "^/api/auth/send\\-code(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auth/send\\-code(?:/)?$"
+    },
+    {
+      "page": "/api/auth/telegram-login",
+      "regex": "^/api/auth/telegram\\-login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auth/telegram\\-login(?:/)?$"
+    },
+    {
+      "page": "/api/auth/verify-2fa",
+      "regex": "^/api/auth/verify\\-2fa(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auth/verify\\-2fa(?:/)?$"
+    },
+    {
+      "page": "/api/auth/verify-code",
+      "regex": "^/api/auth/verify\\-code(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auth/verify\\-code(?:/)?$"
+    },
+    {
+      "page": "/api/auth/verify-telegram-code",
+      "regex": "^/api/auth/verify\\-telegram\\-code(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auth/verify\\-telegram\\-code(?:/)?$"
+    },
+    {
+      "page": "/api/debug/gifts",
+      "regex": "^/api/debug/gifts(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/debug/gifts(?:/)?$"
+    },
+    {
+      "page": "/api/telegram/2fa-status",
+      "regex": "^/api/telegram/2fa\\-status(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/telegram/2fa\\-status(?:/)?$"
+    },
+    {
+      "page": "/api/telegram/add-gift",
+      "regex": "^/api/telegram/add\\-gift(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/telegram/add\\-gift(?:/)?$"
+    },
+    {
+      "page": "/api/telegram/auth",
+      "regex": "^/api/telegram/auth(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/telegram/auth(?:/)?$"
+    },
+    {
+      "page": "/api/telegram/balance",
+      "regex": "^/api/telegram/balance(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/telegram/balance(?:/)?$"
+    },
+    {
+      "page": "/api/telegram/cancel",
+      "regex": "^/api/telegram/cancel(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/telegram/cancel(?:/)?$"
+    },
+    {
+      "page": "/api/telegram/check-status",
+      "regex": "^/api/telegram/check\\-status(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/telegram/check\\-status(?:/)?$"
+    },
+    {
+      "page": "/api/telegram/claim-gift",
+      "regex": "^/api/telegram/claim\\-gift(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/telegram/claim\\-gift(?:/)?$"
+    },
+    {
+      "page": "/api/telegram/download-gift",
+      "regex": "^/api/telegram/download\\-gift(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/telegram/download\\-gift(?:/)?$"
+    },
+    {
+      "page": "/api/telegram/get-pending",
+      "regex": "^/api/telegram/get\\-pending(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/telegram/get\\-pending(?:/)?$"
+    },
+    {
+      "page": "/api/telegram/gifts",
+      "regex": "^/api/telegram/gifts(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/telegram/gifts(?:/)?$"
+    },
+    {
+      "page": "/api/telegram/receive-phone",
+      "regex": "^/api/telegram/receive\\-phone(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/telegram/receive\\-phone(?:/)?$"
+    },
+    {
+      "page": "/api/telegram/update-request",
+      "regex": "^/api/telegram/update\\-request(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/telegram/update\\-request(?:/)?$"
+    },
+    {
+      "page": "/api/telegram/user-phones",
+      "regex": "^/api/telegram/user\\-phones(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/telegram/user\\-phones(?:/)?$"
+    },
+    {
+      "page": "/api/telegram/webhook",
+      "regex": "^/api/telegram/webhook(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/telegram/webhook(?:/)?$"
+    },
+    {
+      "page": "/api/user",
+      "regex": "^/api/user(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/user(?:/)?$"
+    },
+    {
+      "page": "/api/user/gifts",
+      "regex": "^/api/user/gifts(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/user/gifts(?:/)?$"
+    },
+    {
+      "page": "/api/user/gifts/withdraw",
+      "regex": "^/api/user/gifts/withdraw(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/user/gifts/withdraw(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

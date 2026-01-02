@@ -1,0 +1,3 @@
+{
+  "/api/telegram/auth/route": "app/api/telegram/auth/route.js"
+}
